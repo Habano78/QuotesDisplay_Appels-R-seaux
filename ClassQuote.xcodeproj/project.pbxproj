@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		225138622DE47B0F00E96943 /* ClassQuoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225138612DE47B0F00E96943 /* ClassQuoteApp.swift */; };
+		225138642DE47B0F00E96943 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225138632DE47B0F00E96943 /* QuoteView.swift */; };
+		2251388F2DE48B0E00E96943 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2251388E2DE48B0E00E96943 /* QuoteModel.swift */; };
+		225138912DE499A900E96943 /* QuoteDTOModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225138902DE499A900E96943 /* QuoteDTOModel.swift */; };
+		225138932DE49DE100E96943 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225138922DE49DE100E96943 /* QuoteViewModel.swift */; };
+		225138962DE4B1D100E96943 /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225138952DE4B1D100E96943 /* NetworkErrors.swift */; };
+		225138982DE4BB2400E96943 /* QuoteServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225138972DE4BB2400E96943 /* QuoteServiceProtocol.swift */; };
+		2251389A2DE4CB9D00E96943 /* APIQuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225138992DE4CB9D00E96943 /* APIQuoteService.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2251386F2DE47B1100E96943 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -25,8 +36,16 @@
 
 /* Begin PBXFileReference section */
 		2251385E2DE47B0F00E96943 /* ClassQuote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassQuote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		225138612DE47B0F00E96943 /* ClassQuoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassQuoteApp.swift; sourceTree = "<group>"; };
+		225138632DE47B0F00E96943 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		2251386E2DE47B1100E96943 /* ClassQuoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassQuoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		225138782DE47B1100E96943 /* ClassQuoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassQuoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2251388E2DE48B0E00E96943 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		225138902DE499A900E96943 /* QuoteDTOModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDTOModel.swift; sourceTree = "<group>"; };
+		225138922DE49DE100E96943 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
+		225138952DE4B1D100E96943 /* NetworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
+		225138972DE4BB2400E96943 /* QuoteServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteServiceProtocol.swift; sourceTree = "<group>"; };
+		225138992DE4CB9D00E96943 /* APIQuoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIQuoteService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +94,11 @@
 		225138552DE47B0F00E96943 = {
 			isa = PBXGroup;
 			children = (
+				225138612DE47B0F00E96943 /* ClassQuoteApp.swift */,
+				2251388C2DE47B2D00E96943 /* Model */,
+				2251388D2DE47B3900E96943 /* ViewModel */,
+				2251388B2DE47B2500E96943 /* Views */,
+				225138942DE4AAE300E96943 /* Networking */,
 				225138602DE47B0F00E96943 /* ClassQuote */,
 				225138712DE47B1100E96943 /* ClassQuoteTests */,
 				2251387B2DE47B1100E96943 /* ClassQuoteUITests */,
@@ -90,6 +114,41 @@
 				225138782DE47B1100E96943 /* ClassQuoteUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2251388B2DE47B2500E96943 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				225138632DE47B0F00E96943 /* QuoteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2251388C2DE47B2D00E96943 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2251388E2DE48B0E00E96943 /* QuoteModel.swift */,
+				225138902DE499A900E96943 /* QuoteDTOModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2251388D2DE47B3900E96943 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				225138922DE49DE100E96943 /* QuoteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		225138942DE4AAE300E96943 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				225138952DE4B1D100E96943 /* NetworkErrors.swift */,
+				225138972DE4BB2400E96943 /* QuoteServiceProtocol.swift */,
+				225138992DE4CB9D00E96943 /* APIQuoteService.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225138912DE499A900E96943 /* QuoteDTOModel.swift in Sources */,
+				2251389A2DE4CB9D00E96943 /* APIQuoteService.swift in Sources */,
+				225138982DE4BB2400E96943 /* QuoteServiceProtocol.swift in Sources */,
+				225138932DE49DE100E96943 /* QuoteViewModel.swift in Sources */,
+				2251388F2DE48B0E00E96943 /* QuoteModel.swift in Sources */,
+				225138642DE47B0F00E96943 /* QuoteView.swift in Sources */,
+				225138622DE47B0F00E96943 /* ClassQuoteApp.swift in Sources */,
+				225138962DE4B1D100E96943 /* NetworkErrors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
