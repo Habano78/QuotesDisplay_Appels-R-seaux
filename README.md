@@ -1,5 +1,6 @@
 Random Quote App (SwiftUI & MVVM)
-Insert a screenshot of the app in action here!
+
+Screenshot of the app in action here
 
 Table of Contents
 Introduction
@@ -55,7 +56,7 @@ iOS 16 or later.
 Installation
 Clone the repository to your local machine:
 
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+git clone [https://github.com/Habano78/QuotesDisplay_Appels-R-seaux.git](https://github.com/Habano78/QuotesDisplay_Appels-R-seaux.git)
 
 
 Open the .xcodeproj file in Xcode.
