@@ -3,6 +3,7 @@ Random Quote App (SwiftUI & MVVM)
 Screenshot of the app in action here
 
 Table of Contents
+
 Introduction
 
 Features
